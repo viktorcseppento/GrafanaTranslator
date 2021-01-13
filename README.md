@@ -30,3 +30,4 @@ If you see a problem or a typo or want to add your translation, please fork, mak
 # TODO
 - [ ] translate side menu  
 - [ ] translate day of the week and months in time picker  
+- [ ] translate legend on the graph (min, max ...)
