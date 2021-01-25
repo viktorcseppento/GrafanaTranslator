@@ -121,6 +121,12 @@ sed -i 's/"Selected (",n.length,")"/"Выбрано (",n.length,")"/g' app*.js* 
 sed -i 's/"Type to search (country, city, abbreviation)"/"Введите для поиска (страна, город, аббревиатура)"/g' app*.js*
 sed -i 's/"Default"/"По умолчанию"/g' app*.js*
 
+sed -i 's/"panel":"panels"/"панель":"панелей"/g' DashboardPage*.js*
+sed -i 's/"Filter by values:"/"Фильтр по значению:"/g' app*.js*
+sed -i 's/"filter values"/"значение"/g' app*.js*
+sed -i 's/"Clear filter"/"Очистить фильтр"/g' app*.js*
+sed -i 's/"(right-y)"/"(Y-справа)"/g' grafana.dark*.css
+
 sleep 5
 sudo service grafana-server restart
 echo "Перевод завершен! Очистите кэш браузера, чтобы увидеть изменения! (CTRL+F5)"

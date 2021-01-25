@@ -123,6 +123,12 @@ sed -i 's/"Selected (",n.length,")"/"########## (",n.length,")"/g' app*.js* # in
 sed -i 's/"Type to search (country, city, abbreviation)"/"##########"/g' app*.js*
 sed -i 's/"Default"/"##########"/g' app*.js*
 
+sed -i 's/"panel":"panels"/"##########":"##########"/g' DashboardPage*.js*
+sed -i 's/"Filter by values:"/"##########:"/g' app*.js*
+sed -i 's/"filter values"/"##########"/g' app*.js*
+sed -i 's/"Clear filter"/"##########"/g' app*.js*
+sed -i 's/"(right-y)"/"(##########)"/g' grafana.dark*.css
+
 sleep 5
 sudo service grafana-server restart
 echo "Translating done! Clear browser cache to see changes! (CTRL+F5)"
