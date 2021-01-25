@@ -14,7 +14,7 @@ __The translation is not yet complete, and is in the process of being finalized_
 git clone https://github.com/DmitrySidorow/GrafanaTranslator.git
 cd GrafanaTranslator
 chmod +x run.sh
-bash run.sh
+sudo bash run.sh
 ````
 
 ## Supported Languages
@@ -26,3 +26,8 @@ bash run.sh
 ## Contributions
 
 If you see a problem or a typo or want to add your translation, please fork, make the necessary changes, and create a pull request so i can review your changes and merge them into the master repo and branch.
+
+## TODO
+- [ ] translate side menu  
+- [ ] translate day of the week and months in time picker  
+- [ ] translate legend on the graph (min, max ...)
