@@ -131,4 +131,4 @@ sed -i 's/"(right-y)"/"(recht-Y)"/g' grafana.dark*.css
 
 sleep 5
 sudo service grafana-server restart
-echo "Übersetzen erledigt! Löschen Sie den Browser-Cache, um Änderungen zu sehen! (CTRL+F5)"
+echo "Übersetzung erledigt! Löschen Sie den Browser-Cache, um Änderungen zu sehen! (CTRL+F5)"
