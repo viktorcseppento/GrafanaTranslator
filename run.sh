@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PS3='Please choose your language: '
-options=("Russian" "Turkish" "Italiano" "Latviešu" "Quit")
+options=("Russian" "Turkish" "Italiano" "Latviešu" "Deutsch" "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -27,6 +27,12 @@ do
             cd langs
             chmod +x Latvian.sh
             ./Latvian.sh
+            break 
+            ;; 
+        "Deutsch")
+            cd langs
+            chmod +x German.sh
+            ./German.sh
             break 
             ;; 
         "Quit")
