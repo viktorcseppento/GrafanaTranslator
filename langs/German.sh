@@ -44,8 +44,8 @@ sed -i 's/"Next 30 minutes"/"Nächste 30 Minuten"/g' app*.js*
 
 sed -i 's/"Germany"/"Deutschland"/g' app*.js*
 
-sed -i 's/"It looks like you haven'\''t used this timer picker before. As soon as you enter some time intervals, recently used intervals will appear here."/"Es sieht so aus, als hättest Du diesen Timer-Picker noch nie benutzt. Sobald Du einige Zeitintervalle eingibst, werden hier zuletzt verwendete Intervalle angezeigt."/g' app*.js*
-sed -i 's/"Read the documentation"/"Lies die Dokumentation"/g' app*.js*
+sed -i 's/"It looks like you haven'\''t used this timer picker before. As soon as you enter some time intervals, recently used intervals will appear here."/"Es sieht so aus, als hätten Sie diesen Timer-Picker noch nie benutzt. Sobald Sie einige Zeitintervalle eingeben, werden hier zuletzt verwendete Intervalle angezeigt."/g' app*.js*
+sed -i 's/"Read the documentation"/"Lesen Sie die Dokumentation"/g' app*.js*
 sed -i 's/" to find out more about how to enter custom time ranges."/", um mehr über die Eingabe benutzerdefinierter Zeitbereiche zu erfahren."/g' app*.js*
 
 sed -i 's/title:"Recently used absolute ranges"/title:"Zuletzt verwendete absolute Zeitbereiche"/g' app*.js*
