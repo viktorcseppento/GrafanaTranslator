@@ -23,6 +23,8 @@ sudo bash run.sh
 <kbd><img src="https://cdn.statically.io/flags/it.svg" width="24"></kbd> Italiano
 <kbd><img src="https://cdn.statically.io/flags/lv.svg" width="24"></kbd> Latviešu
 <kbd><img src="https://cdn.statically.io/flags/de.svg" width="24"></kbd> Deutsch
+<kbd><img src="https://cdn.statically.io/flags/es.svg" width="24"></kbd> Spanish
+<kbd><img src="https://cdn.statically.io/flags/pt.svg" width="24"></kbd> Português 
 
 ## Contributions
 
