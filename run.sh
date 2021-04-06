@@ -41,6 +41,12 @@ do
             ./PT_BR.sh
             break 
             ;; 
+        "Spanish")
+            cd langs
+            chmod +x Spanish.sh
+            ./Spanish.sh
+            break 
+            ;; 
         "Quit")
             break
             ;;
