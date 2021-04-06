@@ -35,6 +35,12 @@ do
             ./German.sh
             break 
             ;; 
+        "Português/Brasil [pt-BR]")
+            cd langs
+            chmod +x PT_BR.sh
+            ./PT_BR.sh
+            break 
+            ;; 
         "Quit")
             break
             ;;
